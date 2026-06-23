@@ -3,38 +3,197 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BMX Parts Бийск</title>
-<style>
-body{margin:0;font-family:Arial,sans-serif;background:#111;color:#fff;line-height:1.6}
-header{padding:80px 20px;text-align:center;background:linear-gradient(135deg,#111,#222)}
-h1{font-size:48px;margin:0}
-.btn{display:inline-block;padding:14px 28px;background:#ff7a00;color:#fff;text-decoration:none;border-radius:8px;margin-top:20px}
-section{max-width:1100px;margin:auto;padding:60px 20px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.card{background:#1c1c1c;padding:20px;border-radius:12px}
-footer{text-align:center;padding:30px;background:#0a0a0a}
-</style>
-</head>
-<body>
-<header>
-<h1>BMX Parts Бийск</h1>
-<p>Запчасти, комплектующие и аксессуары для BMX с доставкой по Бийску.</p>
-<a class="btn" href="#catalog">Смотреть каталог</a>
-</header>
 
-<section id="catalog">
-<h2>Популярные категории</h2>
-<div class="cards">
-<div class="card"><h3>Рамы BMX</h3><p>Прочные рамы для стрита, парка и дёрта.</p></div>
-<div class="card"><h3>Колёса</h3><p>Обода, втулки и готовые вилсеты.</p></div>
-<div class="card"><h3>Рули</h3><p>Различные размеры и геометрия.</p></div>
-<div class="card"><h3>Пеги</h3><p>Для скольжений и трюков любого уровня.</p></div>
+<title>BMX BIIYSK — Запчасти и BMX велосипеды</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="noise"></div>
+
+<header class="header">
+
+<nav class="nav">
+
+<div class="logo">
+BMX<span>BIYSK</span>
 </div>
+
+<div class="menu">
+<a href="#parts">Запчасти</a>
+<a href="#bikes">Велосипеды</a>
+<a href="#about">О нас</a>
+</div>
+
+</nav>
+
+<section class="hero">
+
+<div class="parallax-bg"></div>
+
+<div class="hero-content reveal">
+
+<div class="tag">
+BMX STORE • БИЙСК
+</div>
+
+<h1>
+Запчасти для BMX
+и готовые велосипеды
+для настоящего прогресса
+</h1>
+
+<p>
+Подбирай комплектующие, собирай кастомный BMX или выбирай
+готовый велосипед для стрита, парка и дерта.
+</p>
+
+<div class="hero-buttons">
+
+<a
+class="btn primary"
+href="https://hellride.ru"
+target="_blank">
+КАТАЛОГ HELLRIDE
+</a>
+
+<a
+class="btn secondary"
+href="#parts">
+ПОПУЛЯРНЫЕ ТОВАРЫ
+</a>
+
+</div>
+
+</div>
+
 </section>
 
-<section>
-<h2>Почему выбирают нас</h2>
+</header>
+
+<section id="parts" class="section">
+
+<div class="section-title reveal">
+<h2>Популярные детали</h2>
+<p>Самые востребованные BMX-компоненты</p>
+</div>
+
+<div class="cards">
+
+<div class="card reveal">
+<img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=900" alt="">
+<h3>Рули BMX</h3>
+<p>Высокие и прочные рули для стрита и парка.</p>
+</div>
+
+<div class="card reveal">
+<img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=900" alt="">
+<h3>Колёса</h3>
+<p>Втулки, обода и готовые вилсеты.</p>
+</div>
+
+<div class="card reveal">
+<img src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?w=900" alt="">
+<h3>Пеги</h3>
+<p>Для гриндов и технических трюков.</p>
+</div>
+
+<div class="card reveal">
+<img src="https://images.unsplash.com/photo-1511994298241-608e28f14fde?w=900" alt="">
+<h3>Рамы BMX</h3>
+<p>Основа твоего кастомного велосипеда.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="bikes" class="section dark">
+
+<div class="section-title reveal">
+<h2>Готовые BMX велосипеды</h2>
+<p>Собранные байки для любого уровня</p>
+</div>
+
+<div class="bike-grid">
+
+<div class="bike-card reveal">
+
+<img src="https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=1000">
+
+<div class="bike-info">
+<h3>Street BMX</h3>
+<p>Для уличного катания и гриндов.</p>
+</div>
+
+</div>
+
+<div class="bike-card reveal">
+
+<img src="https://images.unsplash.com/photo-1519583272095-6433daf26b6e?w=1000">
+
+<div class="bike-info">
+<h3>Park BMX</h3>
+<p>Лёгкий и манёвренный велосипед.</p>
+</div>
+
+</div>
+
+<div class="bike-card reveal">
+
+<img src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?w=1000">
+
+<div class="bike-info">
+<h3>Pro BMX</h3>
+<p>Для прогрессирующих райдеров.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="about" class="section">
+
+<div class="about reveal">
+
+<h2>Почему BMX BIYSK</h2>
+
 <ul>
+
+<li>✓ Популярные BMX-компоненты</li>
+<li>✓ Подбор деталей под стиль катания</li>
+<li>✓ Актуальные модели</li>
+<li>✓ Быстрый переход в каталог Hellride</li>
+<li>✓ Современный BMX-дизайн</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>BMX BIYSK</h3>
+
+<p>
+© 2026 Все права защищены
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html><ul>
 <li>Большой выбор BMX деталей</li>
 <li>Консультация по подбору комплектующих</li>
 <li>Быстрая доставка по Бийску</li>
